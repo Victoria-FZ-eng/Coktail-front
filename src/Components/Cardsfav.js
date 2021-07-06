@@ -14,7 +14,7 @@ class Cardsfav extends React.Component{
         {this.props.arr.map((drink,idx)=>{
             return(
         <Col>
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '18rem' }} className="card">
         <Card.Img variant="top" src={drink.url} />
         <Card.Body>
           <Card.Title>{drink.name}</Card.Title>
